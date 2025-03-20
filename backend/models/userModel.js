@@ -7,6 +7,7 @@ const Users = db.define('users', {
     name: DataTypes.STRING,
     email: DataTypes.STRING,
     password: DataTypes.STRING,
+    identity_file: DataTypes.STRING,
     refresh_token: DataTypes.TEXT
 }, {
     freezeTableName: true
