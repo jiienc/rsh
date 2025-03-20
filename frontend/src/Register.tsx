@@ -97,7 +97,7 @@ export default function Register() {
             accept="image/*"
           />
           <ReCAPTCHA
-            sitekey="6LeHHfoqAAAAAPobBia7LwGEuobj5W2VVGmHd2cC"
+            sitekey=process.env.SITEKEY
             onChange={handleCaptcha}
           />
           <button
